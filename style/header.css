@@ -19,3 +19,31 @@
   .container_imagem{ 
     padding:1em;
   }
+   .lista-menu{
+   display: none;
+   position: absolute;
+   top: 100px;
+   width: 60vw;
+   }
+   .container__botao:checked ~ .lista-menu {
+    display: block;
+   }
+   .lista-menu__titulo,
+   .lista-menu__item{
+    padding: 1em;
+    background-color: blueviolet;
+   }
+   .lista-menu__titulo{
+    color: pink; (155,18,82);
+    font-weight:700
+   }
+   .lista-menu__link{
+    background-color: blueviolet;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    background-clip: text;
+    text-transform: uppercase;
+   }
+   .container__botao:{
+   display: nome;
+   }
