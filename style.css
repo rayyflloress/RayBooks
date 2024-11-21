@@ -1,5 +1,6 @@
- @import url(style/hearder.css);
+ @import url("style/hearder.css");
  @import url("style/banner.css");
+ @import url("style/carrosel.css");
  :root {
   --cor-de-fundo:black;
 --fonte-principal:"poppins";
